@@ -50,7 +50,7 @@ class _TapToExpandState extends State<TapToExpand> {
       child: AnimatedContainer(
         margin: EdgeInsets.symmetric(
           horizontal: isExpanded ? 25 : widget.onTapPadding ?? 10,
-          vertical: 5,
+          vertical: 10,
         ),
         padding: const EdgeInsets.all(20),
         height:

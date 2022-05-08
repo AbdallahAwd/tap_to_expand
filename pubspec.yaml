@@ -1,7 +1,7 @@
 name: tap_to_expand
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/AbdallahAwd/tap_to_expand
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
