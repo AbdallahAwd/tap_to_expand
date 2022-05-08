@@ -1,15 +1,4 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). -->
-
+<img src="https://img.shields.io/pub/v/shared_preferences.svg" alt="pub package">
 This package is to build expandable widget fast and easy with few lines and you can customize it to whatever!
 
 ## Features
@@ -20,12 +9,14 @@ This package is to build expandable widget fast and easy with few lines and you 
 
 ## Getting started
 
-You can start using the package by listing it in your tree and set the requires attributes with few lines of code
-<img src="https://gcdnb.pbrd.co/images/WhA9wAs9nN4z.gif?o=1">
+<p>To use this plugin, add <code>tap_to_expand</code> as a <a href="https://flutter.dev/docs/development/platform-integration/platform-channels">dependency in your pubspec.yaml file</a>.</p>
+
+<br>
+<img src="https://gcdnb.pbrd.co/images/WhA9wAs9nN4z.gif?o=1" width = "300px">
 
 ## Usage
 
-Here is How to use it
+Here is How to use it, You can find Package <a href = "https://github.com/AbdallahAwd/tap_to_expand">API</a>
 
 ```dart
 Center(

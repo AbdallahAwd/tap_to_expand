@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api</a>.
