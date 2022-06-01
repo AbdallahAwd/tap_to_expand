@@ -14,6 +14,7 @@ class TapToExpand extends StatefulWidget {
   final double? borderRadius;
   final ScrollPhysics? scrollPhysics;
 
+  /// A constructor.
   const TapToExpand({
     Key? key,
     required this.content,
@@ -39,10 +40,13 @@ class _TapToExpandState extends State<TapToExpand> {
   @override
   Widget build(BuildContext context) {
     bool scrollable = widget.scrollable ?? false;
+
+    /// Used to make the widget clickable.
     return InkWell(
       highlightColor: Colors.transparent,
       splashColor: Colors.transparent,
       onTap: () {
+        /// Changing the state of the widget.
         setState(() {
           isExpanded = !isExpanded;
         });
@@ -74,6 +78,9 @@ class _TapToExpandState extends State<TapToExpand> {
             ? ListView(
                 physics: widget.scrollPhysics,
                 children: [
+                  /// Creating a row with two widgets. The first widget is the title widget and the
+                  /// second widget is the trailing widget. If the trailing widget is null, then it will
+                  /// show an arrow icon.
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -88,7 +95,11 @@ class _TapToExpandState extends State<TapToExpand> {
                           ),
                     ],
                   ),
+
+                  /// Used to add some space between the title and the content.
                   isExpanded ? const SizedBox() : const SizedBox(height: 20),
+
+                  /// Used to show the content of the widget.
                   AnimatedCrossFade(
                     firstChild: const Text(
                       '',
@@ -109,6 +120,9 @@ class _TapToExpandState extends State<TapToExpand> {
               )
             : Column(
                 children: [
+                  /// Creating a row with two widgets. The first widget is the title widget and the
+                  /// second widget is the trailing widget. If the trailing widget is null, then it will
+                  /// show an arrow icon.
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -122,7 +136,11 @@ class _TapToExpandState extends State<TapToExpand> {
                       ),
                     ],
                   ),
+
+                  /// Used to add some space between the title and the content.
                   isExpanded ? const SizedBox() : const SizedBox(height: 20),
+
+                  /// Used to show the content of the widget.
                   AnimatedCrossFade(
                     firstChild: const Text(
                       '',
@@ -134,6 +152,8 @@ class _TapToExpandState extends State<TapToExpand> {
                     crossFadeState: isExpanded
                         ? CrossFadeState.showFirst
                         : CrossFadeState.showSecond,
+
+                    /// Used to set the duration of the animation.
                     duration:
                         widget.duration ?? const Duration(milliseconds: 1200),
                     reverseDuration: Duration.zero,
