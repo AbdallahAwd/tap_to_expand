@@ -1,6 +1,6 @@
 name: tap_to_expand
 description: This package is to build expandable widget fast and easy with few lines and you can customize it to whatever!.
-version: 0.0.2
+version: 0.0.4
 homepage: https://github.com/AbdallahAwd/tap_to_expand
 
 environment:
@@ -16,6 +16,4 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^1.0.0
 
-
 flutter:
-

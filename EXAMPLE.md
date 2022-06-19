@@ -1,4 +1,4 @@
-<h3>Here is an Example</h3>
+<h3>Here is The Complete Example</h3>
 
 ```dart
 import 'package:tap_to_expand/tap_to_expand.dart';
