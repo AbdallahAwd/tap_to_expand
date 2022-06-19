@@ -17,3 +17,7 @@
 ## 0.0.5
 
 - Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api more detailed with Example</a>.
+
+## 0.0.6
+
+- Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api</a>.
