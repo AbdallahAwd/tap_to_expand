@@ -13,7 +13,7 @@ This package is to build expandable widget fast and easy with few lines and you 
 
 <br>
 
-![PACKAGE!](tap_to_expand.gif)
+<img src="/tap_to_expand.gif" width="300px">
 
 ## Usage
 
