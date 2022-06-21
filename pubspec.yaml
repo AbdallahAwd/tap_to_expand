@@ -1,6 +1,6 @@
 name: tap_to_expand
 description: This package is to build expandable widget fast and easy with few lines and you can customize it to whatever!.
-version: 0.3.7
+version: 0.4.7
 homepage: https://github.com/AbdallahAwd/tap_to_expand
 
 environment:
