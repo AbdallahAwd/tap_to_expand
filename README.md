@@ -12,7 +12,7 @@ This package is to build expandable widget fast and easy with few lines and you 
 <p>To use this plugin, add <code>tap_to_expand</code> as a <a href="https://flutter.dev/docs/development/platform-integration/platform-channels">dependency in your pubspec.yaml file</a>.</p>
 
 <br>
-<img src="https://lh5.googleusercontent.com/0GUNN2qVLqBxm7DrwhroJoXJ8zhzaW-5rFmZGNrhTpsgDLii3Hw8hbRCEOuurXvh6KDcOFcVHVq2jWTIyAkS=w1920-h1080-rw" width = "300px">
+<img src="https://c.tenor.com/t_I6bZtp1YAAAAAC/tenor.gif" alt="Package Photo">
 
 ## Usage
 
