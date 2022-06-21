@@ -12,7 +12,8 @@ This package is to build expandable widget fast and easy with few lines and you 
 <p>To use this plugin, add <code>tap_to_expand</code> as a <a href="https://flutter.dev/docs/development/platform-integration/platform-channels">dependency in your pubspec.yaml file</a>.</p>
 
 <br>
-![PACKAGE PHOTO](tap_to_expand.gif)
+
+![PACKAGE!](tap_to_expand.gif)
 
 ## Usage
 
