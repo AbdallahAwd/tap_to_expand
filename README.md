@@ -13,11 +13,13 @@ This package is to build expandable widget fast and easy with few lines and you 
 
 <br>
 
-<img src="/tap_to_expand.gif" width="300px" height="500px">
+<img src="/tap_to_expand.gif" width="300px" height="600px">
+<img src="/tap_to_expand_letter.gif" width="300px" height="600px">
+
 
 ## Usage
 
-Here is How to use it, You can find Package <a href = "https://github.com/AbdallahAwd/tap_to_expand">API</a>
+Here is How to use <strong>TapToExpand</strong> class, You can find Package Api <a href = "https://github.com/AbdallahAwd/tap_to_expand">HERE</a>
 
 ```dart
 Center(
@@ -46,3 +48,42 @@ Center(
         ),
       ),
 ```
+
+
+Here is How to use <strong>TaptoExpandLetter</strong> class, You can find Package Api <a href = "https://github.com/AbdallahAwd/tap_to_expand">HERE</a>
+
+```dart
+TaptoExpandLetter(
+                // autoClose: false, default is true
+                title: const Text(
+                  'Tap to Expand',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600),
+                ),
+                content: Column(
+                  children: const [
+                    Text(
+                      'Feel free to use the code in your projects but do not forget to give me the credits adding  (Flutter Animation Gallery) where you are gonna use it.',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    // Image.asset(
+                    //   'assets/image_ex.png',
+                    //   width: 150,
+                    //   height: 150,
+                    // ),
+                  ],
+                ),
+                centerWidget: const Icon(
+                  Icons.expand_less_rounded,
+                  size: 50,
+                ))
+          ],
+        ),
+```
+
