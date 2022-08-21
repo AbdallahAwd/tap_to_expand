@@ -3,7 +3,7 @@ This package is to build expandable widget fast and easy with few lines and you 
 
 ## Features
 
-- include your content easliy
+- include your content easily
 - you can make it scroll by setting scrollable to true
 - some beautiful animation
 
@@ -13,8 +13,10 @@ This package is to build expandable widget fast and easy with few lines and you 
 
 <br>
 
+<div>
 <img src="/tap_to_expand.gif" width="300px" height="600px">
-<img src="/tap_to_expand_letter.gif" width="300px" height="600px">
+<img src="/tap_to_ex_letter.gif" width="300px" height="600px">
+</div>
 
 
 ## Usage
@@ -50,10 +52,10 @@ Center(
 ```
 
 
-Here is How to use <strong>TaptoExpandLetter</strong> class, You can find Package Api <a href = "https://github.com/AbdallahAwd/tap_to_expand">HERE</a>
+Here is How to use <strong>TapToExpandLetter</strong> class, You can find Package Api <a href = "https://github.com/AbdallahAwd/tap_to_expand">HERE</a>
 
 ```dart
-TaptoExpandLetter(
+TapToExpandLetter(
                 // autoClose: false, default is true
                 title: const Text(
                   'Tap to Expand',
