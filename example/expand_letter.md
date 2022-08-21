@@ -2,14 +2,14 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/Tap%20to%20Expand/tap_to_expand.dart';
 
-class TaptoExpandLetterHome extends StatefulWidget {
-  const TaptoExpandLetterHome({Key? key}) : super(key: key);
+class TapToExpandLetterHome extends StatefulWidget {
+  const TapToExpandLetterHome({Key? key}) : super(key: key);
 
   @override
-  State createState() => _TaptoExpandLetterHomeState();
+  State createState() => _TapToExpandLetterHomeState();
 }
 
-class _TaptoExpandLetterHomeState extends State<TaptoExpandLetterHome> {
+class _TapToExpandLetterHomeState extends State<TapToExpandLetterHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +19,7 @@ class _TaptoExpandLetterHomeState extends State<TaptoExpandLetterHome> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                TaptoExpandLetter(
+                TapToExpandLetter(
                   content: Text(
                     'Feel free to use the code in your projects but do not forget to give me the credits adding  (Flutter Animation Gallery) where you are gonna use it.',
                     style: TextStyle(
@@ -44,7 +44,7 @@ class _TaptoExpandLetterHomeState extends State<TaptoExpandLetterHome> {
                     // color: Colors.blue,
                   ),
                 ),
-                TaptoExpandLetter(
+                TapToExpandLetter(
                   content: Text(
                     'Feel free to use the code in your projects but do not forget to give me the credits adding (Flutter Animation Gallery) where you are gonna use it.',
                     style: TextStyle(
@@ -71,7 +71,7 @@ class _TaptoExpandLetterHomeState extends State<TaptoExpandLetterHome> {
                 ),
               ],
             ),
-            TaptoExpandLetter(
+            TapToExpandLetter(
                 // autoClose: false,
                 title: const Text(
                   'Tap to Expand',
