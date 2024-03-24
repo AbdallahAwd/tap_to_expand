@@ -1,23 +1,28 @@
-<img src="https://img.shields.io/pub/v/shared_preferences.svg" alt="pub package">
-This package is to build expandable widget fast and easy with few lines and you can customize it to whatever!
+![pub package](https://img.shields.io/pub/v/shared_preferences.svg)
+
+This package provides an easy and fast way to build expandable widgets with minimal code. You can customize these widgets according to your needs.
 
 ## Features
 
-- include your content easily
-- you can make it scroll by setting scrollable to true
-- some beautiful animation
+- Easily include your content
+- Enable scrolling with the `isScrollable` parameter
+- Beautiful animations
 
 ## Getting started
 
-<p>To use this plugin, add <code>tap_to_expand</code> as a <a href="https://flutter.dev/docs/development/platform-integration/platform-channels">dependency in your pubspec.yaml file</a>.</p>
+To use this plugin, add `tap_to_expand` as a dependency in your `pubspec.yaml` file.
+
+```yaml
+dependencies:
+  tap_to_expand: ^1.0.0
+```
 
 <br>
 
 <div>
-<img src="/tap_to_expand.gif" width="300px" height="700px">
-<img src="/tap_to_ex_letter.gif" width="300px" height="700px">
+<img src="https://i.postimg.cc/gddQ0GzK/Untitled-Project2024-03-2414-03-57-ezgif-com-video-to-gif-converter.gif" width="300px" height="550px">
+<img src="https://i.postimg.cc/Bn0smwyK/tap-to-ex-letter.gif" width="300px" height="700px">
 </div>
-
 
 ## Usage
 
@@ -51,8 +56,7 @@ Center(
       ),
 ```
 
-
-Here is How to use <strong>TapToExpandLetter</strong> class, You can find Package Api <a href = "https://github.com/AbdallahAwd/tap_to_expand">HERE</a>
+For more information and customization options, visit the <a href="https://github.com/AbdallahAwd/tap_to_expand">TapToExpand GitHub repository.</a>
 
 ```dart
 TapToExpandLetter(
@@ -88,4 +92,3 @@ TapToExpandLetter(
           ],
         ),
 ```
-

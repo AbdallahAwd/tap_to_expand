@@ -53,7 +53,7 @@ class MyHomePageState extends State<MyHomePage> {
           ),
           onTapPadding: 10,
           closedHeight: 70,
-          scrollable: true,
+
           borderRadius: 10,
           openedHeight: 200,
         ),

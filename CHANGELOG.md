@@ -41,9 +41,19 @@
 ## 0.4.7
 
 - Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api</a>.
+
 ## 0.5.7
 
 - Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api</a>.
+
 ## 0.6.0
 
 - Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Package Api</a>.
+
+## 0.7.0
+
+- Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">Fix some bugs</a>.
+
+## 0.7.1
+
+- Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">docs update</a>.
