@@ -88,6 +88,4 @@ TapToExpandLetter(
           ],
         ),
 ```
-<a href="https://www.buymeacoffee.com/abdallah4">
-  <img src="https://play-lh.googleusercontent.com/aMb_Qiolzkq8OxtQZ3Af2j8Zsp-ZZcNetR9O4xSjxH94gMA5c5gpRVbpg-3f_0L7vlo" width="100px" />
-</a>
+
