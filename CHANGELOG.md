@@ -57,3 +57,7 @@
 ## 0.7.1
 
 - Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">docs update</a>.
+
+## 0.7.2
+
+- Docs on <a href="https://github.com/AbdallahAwd/tap_to_expand">docs update</a>.

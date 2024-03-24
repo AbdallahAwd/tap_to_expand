@@ -1,3 +1,4 @@
+<a href="https://thebsd.github.io/StandWithPalestine/">![anouncement](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/banner-no-action.svg)</a>
 ![pub package](https://img.shields.io/pub/v/shared_preferences.svg)
 
 This package provides an easy and fast way to build expandable widgets with minimal code. You can customize these widgets according to your needs.
